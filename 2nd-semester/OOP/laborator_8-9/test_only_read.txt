@@ -1,0 +1,9 @@
+Amintiri din copilarie;Creanga;basm;1889;
+Dictionar;DOOM;dictionar;2004;
+Analiza matematica;Berinde;horor;1989;
+Ion;Rebreanu;roman;1920;
+A;b;c;1;
+B;Creanga;basm;1800;
+C;Creanga;comedie;1689;
+D;Creanga;polist;1239;
+A;Denis;horror;50;

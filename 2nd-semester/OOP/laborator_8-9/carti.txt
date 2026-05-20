@@ -1,0 +1,6 @@
+Ion;Rebreanu;roman;1920
+Analiza matematica;Berinde;horror;2003
+Enigma Otiliei;Calinescu;roman;1930
+Idiotul;Dostoveiski;roman;209
+Amintiri;Copilarie;comedie;1889
+denisuc;denisuc;super tare;1999

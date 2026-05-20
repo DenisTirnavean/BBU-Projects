@@ -1,0 +1,20 @@
+Harry Potter;J K Rowling;fantasy;2001
+Amintiri din copilarie;Creanga;comedie;1889
+Harry Potter;J K Rowling;fantasy;2001
+Enigma Otiliei;Calinescu;roman;1930
+Analiza matematica;Berinde Stefan;horror;2020
+Amintiri din copilarie;Creanga;comedie;1889
+Harry Potter;J K Rowling;fantasy;2001
+Harry Potter;J K Rowling;fantasy;2001
+Analiza matematica;Berinde Stefan;horror;2020
+Enigma Otiliei;Calinescu;roman;1930
+Analiza matematica;Berinde Stefan;horror;2020
+Analiza matematica;Berinde Stefan;horror;2020
+Analiza matematica;Berinde Stefan;horror;2020
+Analiza matematica;Berinde Stefan;horror;2020
+Enigma Otiliei;Calinescu;roman;1930
+Amintiri din copilarie;Creanga;comedie;1889
+Enigma Otiliei;Calinescu;roman;1930
+Enigma Otiliei;Calinescu;roman;1930
+Enigma Otiliei;Calinescu;roman;1930
+Amintiri din copilarie;Creanga;comedie;1889

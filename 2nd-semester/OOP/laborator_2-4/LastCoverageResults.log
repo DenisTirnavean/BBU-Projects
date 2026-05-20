@@ -1,0 +1,21 @@
+[2025-03-28 11:30:31] [info] Start Program:
+Path:"C:\Users\Denis\Desktop\OOP\lab2_4_oop\x64\Debug\lab2_4_oop.exe"
+Arguments:
+Working directory: "C:\Users\Denis\Desktop\OOP\lab2_4_oop\"
+Modules: Selected: C:\Users\Denis\Desktop\OOP\lab2_4_oop\x64\Debug\lab2_4_oop.exe Excluded: 
+Sources: Selected: C:\Users\Denis\Desktop\OOP\lab2_4_oop Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Denis\AppData\Local\Temp\rrw0nuxq.nxz 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2025-03-28 11:30:40] [info] Module: C:\Users\Denis\Desktop\OOP\lab2_4_oop\x64\Debug\lab2_4_oop.exe is selected because it matches selected pattern: C:\Users\Denis\Desktop\OOP\lab2_4_oop\x64\Debug\lab2_4_oop.exe
+[2025-03-28 11:30:40] [info] ----------------------------------------------------
+[2025-03-28 11:30:40] [info] Coverage binary generated in file: C:\Users\Denis\AppData\Local\Temp\rrw0nuxq.nxz
+[2025-03-28 11:30:40] [info] ----------------------------------------------------

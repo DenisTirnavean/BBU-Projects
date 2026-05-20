@@ -1,0 +1,7 @@
+Analiza Matematica;Stefan Berinde;horror;2004
+DOOM;DOOM;dictionar;2024
+DEX;Dictionar explicativ;dictionar;2023
+Crima si pedeapsa;Dostoievski;roman;1866
+Idiotul;Dostoievski;roman;1870
+Luceafarul;Eminescu;poezie;1888
+Enigma Otiliei;Calinescu;roman;1930
