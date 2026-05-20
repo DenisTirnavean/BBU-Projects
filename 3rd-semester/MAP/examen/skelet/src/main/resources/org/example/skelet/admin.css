@@ -1,0 +1,66 @@
+
+.root {
+    -fx-background-color: rgba(7,255,223,0.2);
+    -fx-font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #063d3d;
+    -fx-font-size: 14px;
+
+}
+
+.label:focused {
+    -fx-text-fill: #063d3d;
+}
+
+.border-pane > .top .label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #045f5f;
+}
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: rgba(0,0,0,0.15);
+    -fx-padding: 8 12;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #82ecb6;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(gaussian, rgba(130,236,182,0.4), 8, 0, 0, 0);
+}
+
+.button {
+    -fx-background-color: #82ecb6;
+    -fx-background-radius: 15;
+    -fx-text-fill: #063d3d;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #6ed9a5;
+}
+
+.button:pressed {
+    -fx-background-color: #5bc692;
+}
+
+.vbox {
+    -fx-background-color: rgba(255,255,255,0.6);
+    -fx-background-radius: 20;
+    -fx-padding: 25;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 20, 0.2, 0, 2);
+}
+.table-view{
+    -fx-background-color: rgb(112, 207, 154,0.6);
+    -fx-background-radius: 20;
+    -fx-padding: 25;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 20, 0.2, 0, 2);
+}

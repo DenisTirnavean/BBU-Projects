@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.skelet.controller.CashierController"
+            prefHeight="400.0" prefWidth="600.0">
+    <left>
+
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="skuColumn" text="SKU"/>
+                <TableColumn fx:id="titleColumn" text="Title"/>
+                <TableColumn fx:id="descriptionColumn" text="Description"/>
+                <TableColumn fx:id="priceColumn" text="Price"/>
+                <TableColumn fx:id="cantitateColumn" text="Cantitate"/>
+            </columns>
+        </TableView>
+    </left>
+    <right>
+        <VBox>
+        <HBox>
+            <TextField fx:id="titleField" promptText="Title"/>
+            <TextField fx:id="cantitateField" promptText="Cantitate disponibila"/>
+        </HBox>
+            <Button text="Sell" onAction="#onSell"/>
+        </VBox>
+    </right>
+</BorderPane>

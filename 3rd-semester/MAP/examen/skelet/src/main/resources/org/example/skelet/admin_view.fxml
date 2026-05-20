@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.skelet.controller.AdminController"
+            prefHeight="400.0" prefWidth="600.0"
+            >
+    <left>
+
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="skuColumn" text="SKU"/>
+                <TableColumn fx:id="titleColumn" text="Title"/>
+                <TableColumn fx:id="descriptionColumn" text="Description"/>
+                <TableColumn fx:id="priceColumn" text="Price"/>
+<!--                <TableColumn fx:id="cantitateColumn" text="Cantitate"/>-->
+                <TableColumn fx:id="statusColumn" text="Status"/>
+            </columns>
+        </TableView>
+    </left>
+    <right>
+        <VBox spacing="12" prefWidth="260" alignment="CENTER">
+        <padding>
+            <Insets left="15"/>
+        </padding>
+        <Label text="Add / Update produse" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+
+        <TextField fx:id="idField" promptText="Id"/>
+        <TextField fx:id="skuField" promptText="SKU"/>
+        <TextField fx:id="titleField" promptText="Title"/>
+        <TextField fx:id="descriptionField" promptText="Description"/>
+        <TextField fx:id="priceField" promptText="Price"/>
+        <TextField fx:id="cantitateField" promptText="Cantitate"/>
+            <HBox>
+                <Button text="Add" onAction="#onAdd"/>
+                <Button text="Delete" onAction="#onDelete"/>
+                <Button text="Update" onAction="#onUpdate"/>
+                <Button text="SYNC" onAction="#onSync"/>
+            </HBox>
+        </VBox>
+    </right>
+
+
+</BorderPane>
