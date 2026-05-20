@@ -1,0 +1,33 @@
+a)
+
+	elimSecvMain([1,2,3,5,55,55,56,3,2,1,1,2,2,2,12,13],L).===>   elimSecvMain([1,2,3,5,55,55,56,3,2,1,1,2,2,2,12,13],[5,55,3,2,1,2,2]).
+		%cazul de baza, avem si secvente consecutive, si secvente de alt fel
+
+	elimSecvMain([1,3,5,7,9,11],L).	=====> elimSecvMain([1,3,5,7,9,11],[1,3,5,7,9,11]).
+		%cazul in care nu avem de sters nimic
+
+	elimSecvMain([1,2,3,4,5,6,7,8,9,10],L).  ======> elimSecvMain([1,2,3,4,5,6,7,8,9,10],[]).
+		%cazul in care stergem tot
+
+	elimSecvMain([],L).	=====> elimSecvMain([],[]).
+		%stergerea din lista vida
+	
+	
+b)
+	elim([1,[2,3,5],9,[1,2,4,3,4,5,7,9],11,[5,8,2],7],L). =====>   elim([1,[2,3,5],9,[1,2,4,3,4,5,7,9],11,[5,8,2],7],[1,[5],9,[4,7,9],11,[5,8,2],7]).
+		%cazul de baza
+	
+	elim([1,4,7,9,122],L). ======> elim([1,4,7,9,122],[1,4,7,9,122]).
+		%cazul in care nu avem liste
+
+	elim([[1,3],[4,6],[7,9],[11,13]],L). ======> elim([[1,3],[4,6],[7,9],[11,13]],[[1,3],[4,6],[7,9],[11,13]]). 
+		%cazul in care avem doar liste, si nu stergem nimic
+
+	elim([[1,2,3],[3,4,5],[8,9,10]],L). =====> elim([[1,2,3],[3,4,5],[8,9,10]],[[],[],[]]).
+		%cazul in care avem doar liste, stergem tot din ele
+
+	elim([[1,2,4],[2,3,5,7,8],[1,2,3,4,9]],L). ======>elim([[1,2,4],[2,3,5,7,8],[1,2,3,4,9]],[[4],[5],[9]]).
+		%cazul in care avem doar liste, mai lasam ceva in ele
+
+	elim([[],1,2,332,[1,2,3,22],[3,5,7],[1,2,3,66,89],[],1000],L). ======> 	elim([[],1,2,332,[1,2,3,22],[3,5,7],[1,2,3,66,89],[],1000],[[],1,2,332,[22],[3,5,7],[66,89],[],1000]).
+		%cazul in care avem si liste vide, si liste care nu trebuie alterate, si liste care se modifica

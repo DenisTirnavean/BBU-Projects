@@ -1,0 +1,19 @@
+;cazuri de testare lab L3, problema 9
+
+1) caz de baza
+(substituie '(a b c d (a x y) u v (s a d (a s d))) 'a '(* *)) =======> (* * b c d (* * x y) u v (s * * d (* * s d)))
+
+2) caz lista vida
+(substituie '() 'a '(* *)) ===========>nil
+
+3) caz in care inlocuiesc elementul prin lista vida, deci il sterg
+(substituie '(a b c d (a x y) u v (s a d (a s d))) 'a '()) ==========>(b c d (x y) u v (s d (s d)))
+
+4) caz lista liniar (obviously merge daca merge si pe lista neliniara)
+(substituie '(a b c d a x y u v s a d a s d) 'a '(* *))=========> (* * b c d * * x y u v s * * d * * s d)
+
+5) caz in care nu exista elementul de inlocuit (nu se intampla nimic)
+(substituie '(1 2 3 4 (a x y) 5 6 (s a d (a s d))) 'h '(K K)) ========> (1 2 3 4 (a x y) 5 6 (s a d (a s d)))
+
+6) caz cu inlocuire cu o lista neliniara
+(substituie '(1 2 3 4 (a x y) 5 6 (s a d (a s d))) 'a '(((L)))) =====>(1 2 3 4 (((L)) X Y) 5 6 (S ((L)) D (((L)) S D)))
