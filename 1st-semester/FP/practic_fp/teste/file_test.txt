@@ -1,0 +1,8 @@
+31.1,8:0,ceva important,normal
+21.2,9:59,ceva important,extraordinar
+22.2,10:1,ceva important,normal
+18.3,8:0,ceva important,normal
+20.7,13:1,ceva important,extraordinar
+20.10,15:50,ceva important,normal
+25.12,7:39,ceva important,extraordinar
+6.12,8:30,cel mai super meeting,normal

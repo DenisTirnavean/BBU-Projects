@@ -1,0 +1,8 @@
+1,2030-07-11,3.5,mers la mare cu gasca
+2,2030-07-11,3.5,mers la munte cu gasca
+3,2030-07-11,3.5,mers la profi cu gasca
+4,2030-07-11,3.5,mers la scoala cu gasca
+5,2030-07-11,3.5,mers acasa cu gasca
+6,2030-07-11,3.5,mers
+7,2030-07-11,3.5,la
+8,2030-07-11,3.5,meci

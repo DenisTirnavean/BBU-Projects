@@ -1,0 +1,10 @@
+1,Standard A,3.7,HHD,0.65
+2,Standard B,2.5,HHD,0.05
+3,Standard A,4.5,SSD,0.75
+4,Standard C,2.5,HHD,0.91
+5,Elite,8.5,ISS,0.50
+6,Premium,9.5,SSD,0.01
+7,Standard B,5.3,HHD,0.73
+8,Standard B,2.5,DEN,0.87
+9,Elite,2.5,SSD,0.12
+10,Standard A,2.5,SSD,0.05

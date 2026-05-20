@@ -1,0 +1,9 @@
+1,Johnathan,acolo
+2,Vasile,acolo
+3,Ion,acolo
+4,Gheorghe,acolo
+5,Bula,acolo
+6,Strula,acolo
+7,Take,acolo
+8,Ianke,acolo
+9,Cadir,acolo
